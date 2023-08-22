@@ -1,0 +1,71 @@
+body {
+    font-family: monospace;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk-card {
+  max-width: 600px;
+  padding: 0.625rem 0.938rem;
+  box-shadow: 10px 10px 0em var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  margin: 1.5rem 0;
+}
+
+.talk-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.talk-description {
+  font-size: 16px;
+}
+
+a {
+  color: #FFF6FF;
+  text-decoration: none;
+}
+
+header {
+    width: 60%;
+    text-align: center;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.linkedin-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  } 
+
+  header {
+    width: 100%;
+    padding: 10px;
+  }
+
+  header p {
+    text-align: justify;
+  }
+
+  .talk-card {
+    max-width: 450px;
+  }
+}

@@ -1,0 +1,106 @@
+body {
+  font-family: 'Mona Sans';
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container, .talk-card {
+  max-width: 450px;
+  padding: 0.625rem 0.938rem;
+  box-shadow: 10px 10px 0em var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.header__img {
+  border-radius: 25%;
+  width: 100px;
+  /* height: 100px; */
+  margin-bottom: 1rem;
+}
+
+.header__title, .header__subtitle {
+  font-size: 2rem;
+}
+
+.header__subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.header__description {
+  max-width: 350px;
+}
+
+.links {
+  font-size: 0.8rem;
+}
+
+.links__menu-item-a {
+  display: block;
+  color: var(--secondary-color);
+  text-align: center;
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+
+.links a:hover {
+  display: block;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  animation: mouseHover 1s;
+}
+
+ion-icon:hover {
+  color: var(--secondary-color);
+  animation: mouseHover 1s;
+}
+
+@keyframes mouseHover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.social {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.social__menu {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social__menu-item {
+  padding: 0.5rem;
+}
+
+.social__menu-item-a {
+  color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+.gdg {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
