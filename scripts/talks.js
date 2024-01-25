@@ -43,5 +43,10 @@ const talks = [
         title: "Melhorando o desenvolvimento com github actions",
         description: "Nessa palestra você conhece o github actions, e como ele pode ser utilizado para melhorar o desenvolvimento de software.",
         link: "https://www.canva.com/design/DAFrXWJHgtY/bjuEkzoQef0tAwGXQrFXFg/edit?utm_content=DAFrXWJHgtY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+        title: "Codando com contêineres: utilizando docker no seu ambiente de desenvolvimento.",
+        description: "Nessa palestra você conhece o docker, e como ele pode ser utilizado para criar ambientes de desenvolvimento.",
+        link: "https://www.canva.com/design/DAF6jQLR55w/6KSjvF68o6cH-M7DfzZS0A/edit?utm_content=DAF6jQLR55w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
 ];
